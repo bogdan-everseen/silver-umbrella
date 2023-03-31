@@ -12,6 +12,8 @@ spec:
       name: sops-gpg
   path: ./apps/dev
   prune: true
+  dependsOn:
+    - name: infrastructure
   sourceRef:
     kind: GitRepository
     name: flux-system
