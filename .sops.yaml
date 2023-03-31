@@ -1,0 +1,10 @@
+creation_rules:
+  - path_regex: .*/dev/.*
+    pgp: 9E910B2C576B5FFC4BB7EB3D80A81EE9B7D727DC
+    encrypted_regex: '^(data|stringData)$'
+#  - path_regex: .*/staging/.*
+#    pgp: STAGINGKEY
+#    encrypted_regex: '^(data|stringData)$'
+#  - path_regex: .*/prod/.*
+#    pgp: PRODKEY
+#    encrypted_regex: '^(data|stringData)$'
